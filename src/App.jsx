@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Landingpage from "./Components/Landingpage";
@@ -12,7 +13,6 @@ import LocomotiveScroll from "locomotive-scroll";
 import Video from "./Components/Video";
 
 function App() {
-  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <div className="h-screen text-white w-full bg-zinc-900">
